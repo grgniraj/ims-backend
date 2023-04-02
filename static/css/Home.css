@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:white;
+    height: 1080px;
+    width: 785px;
+    position: relative;
+    overflow: hidden;
+}
+.Heading {
+    position: absolute;
+    width: 643px;
+    height: 13px;
+    left: 800px;
+    top: 400px;
+    color: #000000;
+    font-family: 'Aksara Bali Galang';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 66px;
+    line-height: 80px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.05em;
+    color: #023246;
+}
+.content {
+    position: absolute;
+    width: 621px;
+    height: 27px;
+    left: 793px;
+    top: 555px;
+    font-family: "Aksara Bali Galang";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.15em;
+    color: rgb(65, 97, 116);
+}
+.Sign{
+    width: 110px;
+    height: 35px;
+    margin-left: 1052px;
+    margin-top: 18px;
+    text-align: center;
+    color: white;
+    background-color: #023246;
+    font: 1em sans-serif;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.Sign:hover{
+    background-color:aqua;
+    color: #000000;
+    transition: 0.5s;
+}
+.Login{
+    width: 110px;
+    height: 35px;
+    margin-right: 103px;
+    margin-top: 18px;
+    text-align: center;
+    color: white;
+    background-color: #023246;
+    font: 1em sans-serif;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+   
+}
+.Login:hover{
+    background-color:aqua;
+    color: #000000;
+    transition: 0.5s;
+}
+.Headline{
+    position: absolute;
+    width: 770px;
+    height: 27px;
+    left: 155px;
+    top: 29px;
+
+    font-family: 'Aksara Bali Galang';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 25px;
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.15em;
+    color: #FFFFFF;
+    }
+.Home{
+        position: absolute;
+    width: 1380px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+    background-color: #023246;
+}
+img {
+    position: absolute;
+    width: 773px;
+    height: 517px;
+    left: 6px;
+    top: 178px;
+}
+.p {
+    
+    position: absolute;
+    width: 551px;
+    height: 357px;
+    left: 1113px;
+    top: 114px;
+}
+#LOGO img{
+    position: absolute;
+    width: 109px;
+    height: 86.78px;
+    left: 13px;
+    top: -2px;
+
+}

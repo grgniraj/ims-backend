@@ -1,0 +1,31 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inventory Management System</title>
+  <link rel="stylesheet" href="{% static 'css/Home.css'%}">
+</head>
+
+<body>
+  <img src="{% static 'Image/Homee.png'%}" alt="Home Image">
+
+  <div class="Heading">Inventory Management System</div>
+  <div class=Home>
+    <div>
+      <a href="{% url 'signup'%}">
+        <button class="Sign">Sign Up</button>
+      </a>
+      <a href="{% url 'login'%}"><button class="Login">Log In</button>
+      </a>
+    </div>
+    <div class="Headline">Welcome to the application for managing your equipments.</div>
+  </div>
+  <div class="content">“Streamline your stock and optimize your success with our inventory management system.”</div>
+  <div id="LOGO"><img src="{% static 'Image/imslogowhite.png'%}" alt="LOGO"></div>
+</body>
+
+</html>

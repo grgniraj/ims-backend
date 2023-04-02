@@ -1,0 +1,49 @@
+body{
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Aksara Bali Galang", sans-serif;
+}
+ #Container{
+    width:246px;
+    height:695px;
+    background-color: #023246;
+    box-shadow: 5px 1px 4px #000000;
+}
+#Headline{
+    width: 1090px;
+    margin-left: 250px;
+    margin-top: -700px;
+    height: 100px;
+    background-color: #023246;
+    box-shadow: 5px 1px 4px #000000;
+} 
+h2{
+    color: white;
+    width: 505px;
+    margin-top: -68px;
+    margin-left: 272px;
+    font-size: 36px;
+    font-family: "Aksara Bali Galang", sans-serif;
+    font-weight: 700;
+}
+img {
+    position: absolute;
+    width: 161px;
+    height: 145px;
+    left: 33px;
+    top: 13px;
+    
+
+}
+input{
+    width: 300px;
+    margin-top: -68px ;
+    margin-left: 884px;
+    height: 30px;
+    border-radius: 20px;
+    float: left;
+    background: #FDFDFD;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px #023246;
+}
